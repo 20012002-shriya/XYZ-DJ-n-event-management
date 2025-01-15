@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ & Event Management</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: linear-gradient(to bottom, black, #1a1a1a);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 5px 0 0;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .banner img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .services {
+            text-align: center;
+            padding: 40px 20px;
+            background: #262626;
+            border-radius: 15px;
+            margin: 30px 15px;
+        }
+
+        .services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .services p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .service-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-item {
+            background: #333;
+            padding: 15px;
+            border-radius: 10px;
+            flex: 1 1 calc(25% - 40px);
+            max-width: calc(25% - 40px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .service-item:hover {
+            background: #444;
+        }
+
+        .service-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .service-list {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-item {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DJ & Event Management</h1>
+        <p>Make your every event special with us!</p>
+    </header>
+
+    <div class="banner">
+        <img src="https://via.placeholder.com/800x400?text=Music+System" alt="Music System">
+    </div>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <p>We cater to all your event needs with a personal touch.</p>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Birthday Party</h3>
+                <p>Unforgettable parties with the best music and vibes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Wedding</h3>
+                <p>Make your special day even more magical with us.</p>
+            </div>
+            <div class="service-item">
+                <h3>Naming Ceremony</h3>
+                <p>Celebrate new beginnings with joy and elegance.</p>
+            </div>
+            <div class="service-item">
+                <h3>Other Occasions</h3>
+                <p>From corporate events to private parties, we do it all.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact: Harpanthpreet Singh - +44 7424702564</p>
+    </footer>
+</body>
+</html>
